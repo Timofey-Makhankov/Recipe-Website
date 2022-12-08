@@ -53,8 +53,14 @@ footer p {
 }
 
 .image {
-  width: 20%;
+  width: 25%;
   height: auto;
+  margin: 10px;
+}
+
+.blog-item {
+  display: flex;
+  font-size: 14pt;
 }
 
 #home {
@@ -71,4 +77,9 @@ footer p {
 #main-image {
   width: 20%;
   height: auto;
+}
+
+#download-button {
+  padding: 10px;
+  background-color: red;
 }
