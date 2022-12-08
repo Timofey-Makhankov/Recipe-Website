@@ -1,9 +1,48 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Satoshi', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #2e2e2e;
 }
 
-h1{
-  color: #2e2e2e;
+header {
+  display: flex;
+  height: 80px;
+  text-align: left;
+  background-color: #f3efe0;
+}
+
+main{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+footer {
+  display: flex;
+  height: 160px;
+  background-color: #f3efe0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  display: inline;
+  margin: auto;
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+#home {
+  margin: auto 15px;
+  font-weight: 700;
+  font-size: 24pt;
+  text-decoration: none;
+}
+
+#home:visited {
+  color: inherit;
+}
+
+#title {
+  margin-left: 2%;
 }
