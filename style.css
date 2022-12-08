@@ -19,28 +19,35 @@ main{
 
 footer {
   display: flex;
-  height: 160px;
+  height: 100px;
   background-color: #f3efe0;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 footer p {
   display: inline;
-  margin: auto;
+  margin: auto 2%;
   font-size: 16pt;
   font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:visited {
+  color: inherit;
+}
+
+.button {
+  
 }
 
 #home {
   margin: auto 15px;
   font-weight: 700;
   font-size: 24pt;
-  text-decoration: none;
-}
-
-#home:visited {
-  color: inherit;
 }
 
 #title {
