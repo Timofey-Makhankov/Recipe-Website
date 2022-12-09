@@ -12,10 +12,102 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Recipe Website</title>
   </head>
   <body>
+    <div class="container-fluid"><h1 id="title">Recipe</h1></div>
+    <div class="container">
+      <h2>Манник</h2>
+      <h3>ingredients</h3>
+      <div class="row">
+        <div class="col-lg-5">
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">
+              Kefir (diluted Yoghurt) / Sour Milk - 200ml
+            </li>
+            <li class="list-group-item">Durum Wheat Semolina - 200g</li>
+            <li class="list-group-item">Egg - 1x</li>
+            <li class="list-group-item">Sugar - 100g</li>
+            <li class="list-group-item">Vanilla Sugar Pack - 1x (10g)</li>
+            <li class="list-group-item">Salt - 1/2 Teaspoon</li>
+            <li class="list-group-item">Melted Butter - 80g</li>
+            <li class="list-group-item">Raisins - 100g-200g (preference)</li>
+            <li class="list-group-item">
+              Baking Powder - 10g or Baking Soda - 1/2 Teaspoon
+            </li>
+          </ol>
+        </div>
+        <div class="col-lg-7">
+          <img src="Images/image-main.jpg" alt="finished Product" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Instructions</h2>
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item">preheat the oven to 180°C</li>
+        <li class="list-group-item">
+          warm up the kefir or soured milk a bit and mix it with durum wheat
+          semolina. leave it for 15 - 20 Minutes, to let the semolina infuse
+          with the kefir and swell up.
+        </li>
+        <li class="list-group-item">
+          Scald the raisins with boiling water. let it sit for 10 - 15 Minutes.
+          drain the water, rinse the raisins, dry with a napkin or a towel. mix
+          together with a pinch of flour.
+        </li>
+        <li class="list-group-item">
+          add egg, sugar, salt, vanilla sugar to the bowl and mix everything
+          together.
+        </li>
+        <li class="list-group-item">
+          after mixing. add the melted butter and mix all together and add the
+          raisins and the baking powder (baking soda) in.
+        </li>
+        <li class="list-group-item">
+          Mix everything together and line the tray with butter or with baking
+          paper.
+        </li>
+        <li class="list-group-item">
+          bake everything in the oven for 45 - 50 minutes or until the top is
+          golden-brown.
+        </li>
+        <li class="list-group-item">
+          leave the baked "Манник" to cool down a bit. Transfer it toa cutting
+          board or a plate.
+        </li>
+        <li class="list-group-item">Cut and enjoy</li>
+      </ol>
+    </div>
+    <h2 id="blog-title">Blog</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            veritatis architecto corrupti accusantium tempora aliquid
+            consequuntur expedita sequi consequatur excepturi nulla obcaecati
+            optio iste nobis voluptas, sunt repudiandae eligendi libero!
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img src="Images/ingredients.jpg" alt="ingredients for the Recipe" />
+        </div>
+      </div>
+    </div>
+    <!--
     <header>
       <a class="link" href="https://github.com/Timofey-Makhankov" id="home"
         >Timofey Makhankov</a
@@ -41,14 +133,10 @@
           </div>
         </div>
         <div class="items">
-          <img
-            id="main-image"
-            class="image"
-            src="Images/image-main.jpg"
-            alt="end product"
-          />
+          <img id="main-image" src="Images/image-main.jpg" alt="end product" />
         </div>
-      </div>
+      </div> -->
+    <!--
       <h2>instructions</h2>
       <div>
         <ol>
@@ -137,7 +225,12 @@
               ratione, fuga sit, commodi, eum nisi consectetur beatae tenetur
               necessitatibus neque?
             </p>
-            <img class="image" src="Images/melt_butter.jpg" alt="" />
+            <img
+              class="image"
+              src="Images/melt_butter.jpg"
+              alt=""
+              style="transform: rotate(-90)"
+            />
           </div>
           <h3></h3>
           <div class="blog-item">
@@ -172,13 +265,17 @@
         </blog>
       </div>
       <div>
-        <a class="link" id="download-button" href="docs/EN_Recipe.pdf" download="Recipe-EN"
+        <a
+          class="link"
+          id="download-button"
+          href="docs/EN_Recipe.pdf"
+          download="Recipe-EN"
           >Download</a
         >
       </div>
-    </main>
-    <footer>
+    </main> -->
+    <!--<footer>
       <p>Copyright 2022 &copy;</p>
-    </footer>
+    </footer> -->
   </body>
 </html>
