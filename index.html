@@ -27,10 +27,14 @@
     <title>Recipe Website</title>
   </head>
   <body>
-    <div class="container-fluid"><h1 id="title">Recipe</h1></div>
+    <div class="container-fluid" id="title-container">
+      <h1 id="title">Манник (Russian Semolina Cake)</h1>
+    </div>
     <div class="container">
-      <h2>Манник</h2>
-      <h3>ingredients</h3>
+      <h2 id="name-title">Recipe</h2>
+      <div class="row">
+        <div class="col-lg-5"><h3 id="ingredient-title">Ingredients</h3></div>
+      </div>
       <div class="row">
         <div class="col-lg-5">
           <ol class="list-group list-group-numbered">
@@ -55,7 +59,7 @@
       </div>
     </div>
     <div class="container">
-      <h2>Instructions</h2>
+      <h2 id="instruction-title">Instructions</h2>
       <ol class="list-group list-group-numbered">
         <li class="list-group-item">preheat the oven to 180°C</li>
         <li class="list-group-item">
@@ -92,7 +96,45 @@
       </ol>
     </div>
     <h2 id="blog-title">Blog</h2>
-    <div class="container">
+    <div class="container blog-item">
+      <div class="row">
+        <div class="col-lg-8">
+          <h3 class="blog-under-title">The Ingredients & Introduction</h3>
+          <p>
+            I was given a task to bake something with a Recipe and Blog it on
+            the Website. I have decided to bake a family tradition Recipe. The Recipe is called "Манник".
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img
+            class="blog-image"
+            src="Images/ingredients.jpg"
+            alt="ingredients for the Recipe"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container blog-item">
+      <div class="row">
+        <div class="col-lg-8">
+          <h3 class="blog-under-title">Test</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            veritatis architecto corrupti accusantium tempora aliquid
+            consequuntur expedita sequi consequatur excepturi nulla obcaecati
+            optio iste nobis voluptas, sunt repudiandae eligendi libero!
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img
+            class="blog-image"
+            src="Images/step_3.jpg"
+            alt="ingredients for the Recipe"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container blog-item">
       <div class="row">
         <div class="col-lg-8">
           <p>
@@ -103,110 +145,18 @@
           </p>
         </div>
         <div class="col-lg-4">
-          <img src="Images/ingredients.jpg" alt="ingredients for the Recipe" />
+          <img
+            class="blog-image"
+            src="Images/risen.jpg"
+            alt="ingredients for the Recipe"
+          />
         </div>
       </div>
     </div>
+    <footer>
+      <p>Copyright &copy; 2022</p>
+    </footer>
     <!--
-    <header>
-      <a class="link" href="https://github.com/Timofey-Makhankov" id="home"
-        >Timofey Makhankov</a
-      >
-    </header>
-    <main>
-      <h1 id="title">Recipe</h1>
-      <div class="recipe">
-        <div class="items">
-          <h2 id="name">Манник</h2>
-          <div>
-            <ol id="ingredients">
-              <li>Kefir (diluted Yoghurt) / Sour Milk - 200ml</li>
-              <li>Durum Wheat Semolina - 200g</li>
-              <li>Egg - 1x</li>
-              <li>Sugar - 100g</li>
-              <li>Vanilla Sugar Pack - 1x (10g)</li>
-              <li>Salt - 1/2 Teaspoon</li>
-              <li>Melted Butter - 80g</li>
-              <li>Raisins - 100g-200g (preference)</li>
-              <li>Baking Powder - 10g or Baking Soda - 1/2 Teaspoon</li>
-            </ol>
-          </div>
-        </div>
-        <div class="items">
-          <img id="main-image" src="Images/image-main.jpg" alt="end product" />
-        </div>
-      </div> -->
-    <!--
-      <h2>instructions</h2>
-      <div>
-        <ol>
-          <li>preheat the oven to 180°C</li>
-          <li>
-            warm up the kefir or soured milk a bit and mix it with durum wheat
-            semolina. leave it for 15 - 20 Minutes, to let the semolina infuse
-            with the kefir and swell up.
-          </li>
-          <li>
-            Scald the raisins with boiling water. let it sit for 10 - 15
-            Minutes. drain the water, rinse the raisins, dry with a napkin or a
-            towel. mix together with a pinch of flour.
-          </li>
-          <li>
-            add egg, sugar, salt, vanilla sugar to the bowl and mix everything
-            together.
-          </li>
-          <li>
-            after mixing. add the melted butter and mix all together and add the
-            raisins and the baking powder (baking soda) in.
-          </li>
-          <li>
-            Mix everything together and line the tray with butter or with baking
-            paper.
-          </li>
-          <li>
-            bake everything in the oven for 45 - 50 minutes or until the top is
-            golden-brown.
-          </li>
-          <li>
-            leave the baked "Манник" to cool down a bit. Transfer it toa cutting
-            board or a plate.
-          </li>
-          <li>Cut and enjoy</li>
-        </ol>
-      </div>
-      <div>
-        <h2>Blog</h2>
-        <blog>
-          <h3>Ingrediants</h3>
-          <div class="blog-item">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
-              veritatis et? Ipsum temporibus saepe mollitia adipisci unde.
-              Expedita porro beatae pariatur, culpa inventore, tempora deleniti
-              provident excepturi ipsum rem eveniet.
-            </p>
-            <img class="image" src="Images/ingredients.jpg" alt="Ingrediants" />
-          </div>
-          <h3></h3>
-          <div class="blog-item">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-              quia exercitationem reiciendis earum, quos aut sint corporis
-              doloribus quod, porro perspiciatis quidem distinctio
-              necessitatibus. At iure excepturi perferendis sunt pariatur!
-            </p>
-            <img class="image" src="Images/step_3.jpg" alt="" />
-          </div>
-          <h3></h3>
-          <div class="blog-item">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              harum natus quasi reprehenderit odit earum voluptas, ea laboriosam
-              pariatur? Repellendus nulla totam ipsa hic ducimus ut iure, earum
-              aliquam sequi?
-            </p>
-            <img class="image" src="Images/risen.jpg" alt="" />
-          </div>
           <h3></h3>
           <div class="blog-item">
             <p>
