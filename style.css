@@ -19,6 +19,10 @@ ol li::before{
   font-weight: 700;
 }
 
+ol {
+  border: #434242 solid 1px;
+}
+
 footer{
   background-color: #F3EFE0;
 }
