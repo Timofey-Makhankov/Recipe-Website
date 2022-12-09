@@ -1,9 +1,15 @@
+:root {
+  --text-color: #2e2e2e;
+  --title-color: #222222;
+  --list-border-color: #434242;
+  --background-color: #f3efe0;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
-  color: #2e2e2e;
-  
+  color: var(--text-color);
 }
 
 img {
@@ -11,20 +17,22 @@ img {
   border-radius: 3px;
 }
 
-p, li{
-  font-size: 16pt;
+p,
+li {
+  /* 16pt */
+  font-size: 14pt;
 }
 
-ol li::before{
+ol li::before {
   font-weight: 700;
 }
 
 ol {
-  border: #434242 solid 1px;
+  border: var(--list-border-color) solid 1px;
 }
 
-footer{
-  background-color: #F3EFE0;
+footer {
+  background-color: #f3efe0;
 }
 
 .blog-item {
@@ -39,20 +47,20 @@ footer{
 
 .blog-under-title {
   font-weight: 700;
-  color: #222222;
+  color: var(--title-color);
 }
 
-#title, 
-#blog-title, 
+#title,
+#blog-title,
 #instruction-title,
-#ingredient-title{
+#ingredient-title {
   margin-top: 15px;
   text-align: center;
   font-weight: 700;
-  color: #222222;
+  color: var(--title-color);
 }
 
-#name-title{
+#name-title {
   margin-top: 20px;
   text-align: center;
   font-weight: 700;
@@ -64,6 +72,20 @@ footer{
   padding-bottom: 10px;
 }
 
-#title-container {
-  background-color: #F3EFE0;
+#title-container,
+#footer-container {
+  background-color: var(--background-color);
+}
+
+#footer-container {
+  margin-top: 30px;
+}
+
+#copyright {
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
 }
